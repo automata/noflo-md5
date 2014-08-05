@@ -1,0 +1,23 @@
+{
+  "name": "noflo-md5",
+  "description": "MD5 hash for NoFlo.",
+  "author": "Vilson Vieira <vilson@void.cc>",
+  "repo": "vilson/noflo-md5",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "index.js",
+    "components/CalculateHash.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "CalculateHash": "components/CalculateHash.coffee"
+    }
+  }
+}
